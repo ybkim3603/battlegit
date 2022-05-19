@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>BATTLEGIT</title>
+        <link rel="stylesheet" href="style.css" >
+    </head>
+    <body>
+        <div id = "wrapper">
+            <h1>! BATTLEGIT !</h1>
+            <h2>MODE</h2>
+            <div class="container"> 
+                <div class="d-flex align-items-center mb-2 mt-2">
+                    
+                    <button style="background-color: green" type="button" id="solo" class="btn btn-primary ms-1 text-nowrap"><i class="bi bi-plus"></i> SOLO</button>
+                    <button type="button" id="multi" class="btn btn-primary ms-1 text-nowrap"><i class="bi bi-plus"></i> MULTI</button>
+                    <input type="text" class="form-control" id="player_name" placeholder="Enter Player Name">
+                    
+
+                </div>
+
+                <div class="d-flex">
+                    <div class="flex-grow-1 bg-light rounded-2 p-2 me-1 w-50">
+                        <h4>Player 1</h4>
+                        <div id="player_1">
+                            <div class="battle bg-light p-1 rounded-2 ps-2">P1</div>
+                        </div>
+                    </div>
+                    <div class="flex-grow-1 bg-light rounded-2 p-2 me-1 w-50">
+                        <h4>Player 2</h4>
+                        <div id="player_2">
+                            <div class="battle bg-light p-1 rounded-2 ps-2">P2</div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="d-flex align-items-center mb-2 mt-2">
+                    <input type="text" class="form-control" id="language" placeholder="Enter Language">
+                    <button style="background-color: red" type="button" id="battle" class="btn btn-primary ms-1 text-nowrap"><i class="bi bi-plus"></i> BATTLE!</button>
+                </div>
+            </div>
+            <div class="flex-grow-1 bg-light rounded-2 p-2 me-1 w-100">
+                <h4>Result</h4>
+                <div id="result">
+                    <div class="battle bg-light p-2 rounded-2 ps-2">Winner</div>
+                </div>
+            </div>
+            <p>Our Github Link</p>
+            <a href="https://github.com/ybkim3603/battlegit">Github</a>
+        </div> 
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+    <script>
+        let btnSolo = document.querySelector("#solo");
+        let btnMulti = document.querySelector("#multi");
+        let btnBattle = document.querySelector("#battle");
+
+        btnSolo.addEventListener("click", () => {
+            //function for solomode
+        })
+
+        btnMulti.addEventListener("click", () => {
+            //function for multimode
+        })
+
+        btnBattle.addEventListener("click", () => {
+            //initiate battle
+            //show result
+        })
+    </script>
+</html>
