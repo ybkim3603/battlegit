@@ -5,7 +5,7 @@
         <title>BATTLEGIT</title>
         <link rel="stylesheet" href="style.css" >
     </head>
-    <body>
+    <body onresize="parent.resizeTo(901,652)" onload="parent.resizeTo(901,652)">
         <div id = "wrapper">
             <img src="titleImg.png" alt="title image" width="300" />
             <h2>MODE</h2>
@@ -24,16 +24,10 @@
                 </div>
 
                 <div class="d-flex">
-                    <div class="flex-grow-1 bg-light rounded-2 p-2 me-1 w-50">
-                        <h4>Player 1</h4>
-                        <div id="player_1">
-                            <div class="battle bg-light p-1 rounded-2 ps-2">P1</div>
-                        </div>
-                    </div>
-                    <div class="flex-grow-1 bg-light rounded-2 p-2 me-1 w-50">
-                        <h4>Player 2</h4>
-                        <div id="player_2">
-                            <div class="battle bg-light p-1 rounded-2 ps-2">P2</div>
+                    <div class="flex-grow-1 bg-light rounded-2 p-2 me-1 w-100">
+                        <h4>Players</h4>
+                        <div id="players">
+                            <div class="battle bg-light p-1 rounded-2 ps-2">Who will fight</div>
                         </div>
                     </div>
                 </div> 
