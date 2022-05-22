@@ -23,3 +23,6 @@ After you have set all the players, press the 'battle' button.
 It will show you the winner and the information of the players you typed in.
 
 ### Have Fun!
+
+### Reference
+* HTTPS://docs.github.com
