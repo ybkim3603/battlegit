@@ -1,0 +1,25 @@
+#wrapper { 
+    width: 100%;
+    background: white; 
+    text-align: center;
+}
+
+#battle{
+    border: none;
+}
+
+#submit {
+    border: none;;
+}
+
+h2{
+    margin-right: 90%;
+}
+
+a {
+    color: steelblue;
+}
+
+a:visited{
+    color: darkblue;
+}
