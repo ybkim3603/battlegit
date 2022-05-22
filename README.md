@@ -25,4 +25,4 @@ It will show you the winner and the information of the players you typed in.
 ### Have Fun!
 
 ### Reference
-* HTTPS://docs.github.com
+* HTTPS://docs.github.com (if you want to see how we got the informations of users from github)
